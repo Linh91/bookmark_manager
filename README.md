@@ -1,6 +1,7 @@
 # bookmark_manager
 
 As a user
+
 So I can see the links that I have saved
 I want to be able to view a list of my saved links
 
