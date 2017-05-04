@@ -1,6 +1,6 @@
 # BOOKMARK MANAGER
 
-<<<<<<< HEAD
+
 As a user <br />
 So I can see the links that I have saved <br />
 I want to be able to view a list of my saved links <br />
