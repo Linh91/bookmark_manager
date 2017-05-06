@@ -1,3 +1,5 @@
+ENV["RACK_ENV"] = "development"
+# this ensures app runs in development mode by default
 require 'sinatra/base'
 require_relative 'models/link'
 

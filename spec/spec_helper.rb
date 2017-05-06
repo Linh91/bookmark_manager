@@ -1,3 +1,5 @@
+ENV["RACK_ENV"] = "test"
+# this ensures test runs the application in test mode
 require 'capybara'
 require 'capybara/rspec'
 require 'database_cleaner'
