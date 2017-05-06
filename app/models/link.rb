@@ -4,13 +4,13 @@ require 'dm-postgres-adapter'
 
 # this class responds to a table in the database
 class Link
-  # add DataMapper functionality to this class so it can communitcate with databases
+  # add DataMapper functionality to this class so it
+  # can communitcate with databases
   include DataMapper::Resource
   # these property declarations set the column headers in the 'link's table
   property :id, Serial
   property :title, String
   property :url, String
-
 end
 # setting up connection with database
 DataMapper.setup(:default, 'postgres://localhost/bookmark_manager_test')
