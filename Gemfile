@@ -2,14 +2,15 @@
 
 source 'https://rubygems.org'
 
-gem 'capybara'
 gem 'data_mapper'
+gem 'database_cleaner'
 gem 'dm-postgres-adapter'
 gem 'rack'
-gem 'rspec'
 gem 'sinatra'
 
 group :test do
+  gem 'capybara'
   gem 'database_cleaner'
+  gem 'rspec'
 end
 # gem "rails"
